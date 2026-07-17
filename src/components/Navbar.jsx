@@ -18,16 +18,13 @@ export default function Navbar({ currentRoute, setRoute }) {
           {/* Logo / Brand Name */}
           <button 
             onClick={() => setRoute('home')} 
-            className="flex items-center gap-3 group cursor-pointer focus:outline-none"
+            className="flex items-center group cursor-pointer focus:outline-none"
           >
             <img 
               src="/Logo.webp" 
               alt="Namaste Hinton Logo" 
-              className="h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-102"
+              className="h-16 w-auto object-contain transition-transform duration-200 group-hover:scale-102"
             />
-            <span className="font-display text-3xl font-normal tracking-wide text-[#D97706] pt-1">
-              Namaste Hinton
-            </span>
           </button>
 
           {/* Desktop Navigation Links */}
@@ -40,13 +37,13 @@ export default function Navbar({ currentRoute, setRoute }) {
                   onClick={() => setRoute(link.id)}
                   className={`relative py-2 text-sm font-medium tracking-wide transition-all duration-200 cursor-pointer focus:outline-none ${
                     isActive 
-                      ? 'text-[#D97706]' 
+                      ? 'text-[#8A5229]' 
                       : 'text-[#2D2D2D]/75 hover:text-[#2D2D2D]'
                   }`}
                 >
                   {link.name}
                   {isActive && (
-                    <span className="absolute bottom-0 left-0 h-[2px] w-full bg-[#D97706] transition-all duration-200" />
+                    <span className="absolute bottom-0 left-0 h-[2px] w-full bg-[#8A5229] transition-all duration-200" />
                   )}
                 </button>
               );
@@ -59,7 +56,7 @@ export default function Navbar({ currentRoute, setRoute }) {
               href="https://order.slatexpos.com/namaste-hinton/namaste-hinton"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-full bg-[#2D2D2D] px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white transition-all duration-200 hover:bg-[#D97706] focus:outline-none"
+              className="inline-flex items-center gap-1.5 rounded-full bg-[#8A5229] px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white transition-all duration-200 hover:bg-[#6D3D1D] focus:outline-none"
             >
               Order Online
               <ExternalLink className="h-3.5 w-3.5" />
@@ -92,7 +89,7 @@ export default function Navbar({ currentRoute, setRoute }) {
                 }}
                 className={`text-left text-lg font-medium tracking-wide py-2 ${
                   currentRoute === link.id 
-                    ? 'text-[#D97706] border-l-2 border-[#D97706] pl-3' 
+                    ? 'text-[#8A5229] border-l-2 border-[#8A5229] pl-3' 
                     : 'text-[#2D2D2D]/85 hover:text-[#2D2D2D] pl-3'
                 }`}
               >
@@ -107,7 +104,7 @@ export default function Navbar({ currentRoute, setRoute }) {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
-              className="flex items-center justify-center gap-2 rounded-xl bg-[#2D2D2D] py-3.5 text-sm font-semibold uppercase tracking-wider text-white transition-all duration-200 hover:bg-[#D97706]"
+              className="flex items-center justify-center gap-2 rounded-xl bg-[#8A5229] py-3.5 text-sm font-semibold uppercase tracking-wider text-white transition-all duration-200 hover:bg-[#6D3D1D]"
             >
               Order Online
               <ExternalLink className="h-4 w-4" />

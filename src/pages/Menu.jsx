@@ -45,7 +45,7 @@ export default function Menu() {
       
       {/* Title Header */}
       <div className="mx-auto max-w-3xl text-center mb-12">
-        <div className="inline-flex items-center gap-2 rounded-full bg-[#D97706]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#D97706] mb-4">
+        <div className="inline-flex items-center gap-2 rounded-full bg-[#8A5229]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#8A5229] mb-4">
           <Sparkles className="h-3.5 w-3.5" />
           <span>Namaste Hinton Culinary Experience</span>
         </div>
@@ -71,13 +71,13 @@ export default function Menu() {
             id="search"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="block w-full rounded-xl border border-[#E5E5DE] bg-white py-3.5 pl-10 pr-4 text-sm text-[#2D2D2D] placeholder-[#2D2D2D]/40 focus:border-[#D97706] focus:outline-none focus:ring-1 focus:ring-[#D97706] shadow-sm transition-all"
+            className="block w-full rounded-xl border border-[#E5E5DE] bg-white py-4 pl-11 pr-4 text-base text-[#2D2D2D] placeholder-[#2D2D2D]/45 focus:border-[#8A5229] focus:outline-none focus:ring-1 focus:ring-[#8A5229] shadow-sm transition-all"
             placeholder="Search Vada Pav, Butter Chicken, Naan..."
           />
           {searchQuery && (
             <button
               onClick={() => setSearchQuery('')}
-              className="absolute inset-y-0 right-0 flex items-center pr-3 text-xs font-semibold text-[#D97706] hover:text-[#2D2D2D] focus:outline-none"
+              className="absolute inset-y-0 right-0 flex items-center pr-3 text-xs font-semibold text-[#8A5229] hover:text-[#2D2D2D] focus:outline-none"
             >
               Clear
             </button>
@@ -95,9 +95,9 @@ export default function Menu() {
                   onClick={() => {
                     setActiveTab(tab.id);
                   }}
-                  className={`px-4 py-3 text-xs sm:text-sm font-medium tracking-wide border-b-2 cursor-pointer transition-all duration-200 focus:outline-none ${
+                  className={`px-5 py-3.5 text-sm sm:text-base font-semibold tracking-wide border-b-2 cursor-pointer transition-all duration-200 focus:outline-none ${
                     isActive 
-                      ? 'border-[#D97706] text-[#D97706]' 
+                      ? 'border-[#8A5229] text-[#8A5229]' 
                       : 'border-transparent text-[#2D2D2D]/70 hover:text-[#2D2D2D] hover:border-[#E5E5DE]'
                   }`}
                 >
@@ -116,12 +116,12 @@ export default function Menu() {
           {filteredItems.map((item, idx) => (
             <div 
               key={idx}
-              className="flex flex-col justify-between p-6 rounded-xl bg-white border border-[#E5E5DE]/65 hover:border-[#D97706]/35 transition-all duration-200 text-left group shadow-sm hover:shadow-md"
+              className="flex flex-col justify-between p-6 rounded-xl bg-white border border-[#E5E5DE]/65 hover:border-[#8A5229]/35 transition-all duration-200 text-left group shadow-sm hover:shadow-md"
             >
               <div>
                 {/* Category & Availability row */}
                 <div className="flex items-center justify-between gap-2 mb-3">
-                  <span className="text-[10px] uppercase font-bold tracking-wider text-[#D97706] bg-[#D97706]/5 px-2 py-0.5 rounded">
+                  <span className="text-xs uppercase font-extrabold tracking-wider text-[#8A5229] bg-[#8A5229]/5 px-2.5 py-1 rounded">
                     {item.Category}
                   </span>
                   <span className="text-[9px] text-[#2D2D2D]/40 font-medium tracking-wider">
@@ -130,14 +130,14 @@ export default function Menu() {
                 </div>
 
                 {/* Item Name */}
-                <h3 className="font-serif text-lg font-bold text-[#2D2D2D] group-hover:text-[#D97706] transition-colors duration-200">
+                <h3 className="text-xl sm:text-2xl font-bold text-[#2D2D2D] group-hover:text-[#8A5229] transition-colors duration-200">
                   {item.Item}
                 </h3>
               </div>
 
               {/* Pricing & Add to Cart simulator */}
               <div className="flex items-center justify-between mt-6 pt-4 border-t border-[#E5E5DE]/50">
-                <span className="font-serif text-lg font-bold text-[#2D2D2D]">
+                <span className="text-xl sm:text-2xl font-extrabold text-[#2D2D2D]">
                   {item.Price}
                 </span>
                 
@@ -145,7 +145,7 @@ export default function Menu() {
                   href="https://order.slatexpos.com/namaste-hinton/namaste-hinton"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-[#2D2D2D] hover:text-[#D97706] transition-colors"
+                  className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-[#2D2D2D] hover:text-[#8A5229] transition-colors"
                 >
                   <ShoppingBag className="h-3.5 w-3.5" />
                   Order &rarr;
@@ -167,7 +167,7 @@ export default function Menu() {
               setActiveTab('all');
               setSearchQuery('');
             }}
-            className="rounded-full bg-[#2D2D2D] px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white hover:bg-[#D97706] transition-colors cursor-pointer"
+            className="rounded-full bg-[#8A5229] px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white hover:bg-[#6D3D1D] transition-colors cursor-pointer"
           >
             Reset Filters
           </button>
@@ -177,11 +177,11 @@ export default function Menu() {
       {/* Online Order CTA */}
       <div className="mt-20 border border-[#E5E5DE] bg-[#2D2D2D] rounded-3xl p-8 sm:p-12 text-center text-white relative overflow-hidden shadow-md">
         {/* Background glow effects */}
-        <div className="absolute top-0 right-0 h-40 w-40 rounded-full bg-[#D97706]/10 blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 h-40 w-40 rounded-full bg-[#8A5229]/10 blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-0 h-40 w-40 rounded-full bg-white/5 blur-3xl pointer-events-none" />
 
         <div className="relative z-10 max-w-2xl mx-auto flex flex-col items-center">
-          <ShoppingBag className="h-8 w-8 text-[#D97706] mb-4" />
+          <ShoppingBag className="h-8 w-8 text-[#8A5229] mb-4" />
           <h2 className="font-serif text-2xl sm:text-3xl font-bold tracking-tight mb-4">
             Hungry? Order Online For Pickup & Delivery
           </h2>
@@ -192,7 +192,7 @@ export default function Menu() {
             href="https://order.slatexpos.com/namaste-hinton/namaste-hinton"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-[#D97706] px-6 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-[#2D2D2D] transition-all duration-200"
+            className="inline-flex items-center gap-2 rounded-full bg-[#8A5229] px-6 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-[#2D2D2D] transition-all duration-200"
           >
             Order on SlateXpos
             <Sparkles className="h-4 w-4" />

@@ -20,7 +20,7 @@ export default function Footer({ setRoute }) {
                 alt="Namaste Hinton Logo" 
                 className="h-10 w-auto object-contain"
               />
-              <span className="font-display text-2xl font-normal tracking-wide text-[#D97706] pt-1">
+              <span className="font-display text-2xl font-normal tracking-wide text-[#8A5229] pt-1">
                 Namaste Hinton
               </span>
             </button>
@@ -36,11 +36,11 @@ export default function Footer({ setRoute }) {
             </h3>
             <ul className="space-y-2.5 text-sm text-[#2D2D2D]/75">
               <li className="flex items-center gap-2">
-                <Clock className="h-4 w-4 text-[#D97706] shrink-0" />
+                <Clock className="h-4 w-4 text-[#8A5229] shrink-0" />
                 <span>Sun – Thu: 11:00 AM – 11:00 PM</span>
               </li>
               <li className="flex items-center gap-2">
-                <Clock className="h-4 w-4 text-[#D97706] shrink-0" />
+                <Clock className="h-4 w-4 text-[#8A5229] shrink-0" />
                 <span className="font-medium text-[#2D2D2D]">Fri – Sat: 11:00 AM – 11:30 PM</span>
               </li>
             </ul>
@@ -53,15 +53,15 @@ export default function Footer({ setRoute }) {
             </h3>
             <ul className="space-y-3.5 text-sm text-[#2D2D2D]/75">
               <li className="flex items-start gap-2.5">
-                <MapPin className="h-4.5 w-4.5 text-[#D97706] shrink-0 mt-0.5" />
+                <MapPin className="h-4.5 w-4.5 text-[#8A5229] shrink-0 mt-0.5" />
                 <span className="leading-relaxed">
                   340 Smith St #129,<br />
                   Hinton, AB T7V 2A1
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
-                <Phone className="h-4 w-4 text-[#D97706] shrink-0" />
-                <a href="tel:+17803159611" className="hover:text-[#D97706] transition-colors">
+                <Phone className="h-4 w-4 text-[#8A5229] shrink-0" />
+                <a href="tel:+17803159611" className="hover:text-[#8A5229] transition-colors">
                   (780) 315-9611
                 </a>
               </li>
@@ -80,12 +80,12 @@ export default function Footer({ setRoute }) {
               <input
                 type="email"
                 placeholder="Enter email"
-                className="w-full rounded-lg border border-[#E5E5DE] bg-[#FAFAF6] px-3.5 py-2 text-xs text-[#2D2D2D] placeholder-[#2D2D2D]/40 focus:border-[#D97706] focus:outline-none focus:ring-1 focus:ring-[#D97706]"
+                className="w-full rounded-lg border border-[#E5E5DE] bg-[#FAFAF6] px-3.5 py-2 text-xs text-[#2D2D2D] placeholder-[#2D2D2D]/40 focus:border-[#8A5229] focus:outline-none focus:ring-1 focus:ring-[#8A5229]"
                 required
               />
               <button
                 type="submit"
-                className="rounded-lg bg-[#2D2D2D] px-4 py-2 text-xs font-semibold text-white hover:bg-[#D97706] transition-colors focus:outline-none"
+                className="rounded-lg bg-[#8A5229] px-4 py-2 text-xs font-semibold text-white hover:bg-[#6D3D1D] transition-colors focus:outline-none cursor-pointer"
               >
                 Join
               </button>
@@ -100,8 +100,8 @@ export default function Footer({ setRoute }) {
             &copy; {currentYear} Namaste Hinton Restaurant. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs text-[#2D2D2D]/55">
-            <a href="#" className="hover:text-[#D97706] transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-[#D97706] transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-[#8A5229] transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-[#8A5229] transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

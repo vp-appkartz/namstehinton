@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, MapPin, CheckCircle2 } from 'lucide-react';
+import { Sparkles, MapPin } from 'lucide-react';
 
 export default function Highlights() {
   const highlights = [
@@ -11,7 +11,8 @@ export default function Highlights() {
       description: 'Golden-fried spiced potato dumpling (vada) nestled inside a soft, warm pav roll, seasoned with fiery dry garlic chutney and sweetened mint-tamarind spread.',
       tags: ['Vegetarian', 'Street Classic'],
       image: '/hero-dish.png', // We can showcase our beautiful food image here
-      alt: 'Authentic Indian Vada Pav sandwich served with green chili'
+      alt: 'Authentic Indian Vada Pav sandwich served with green chili',
+      badge: 'Hot'
     },
     {
       id: 2,
@@ -22,7 +23,8 @@ export default function Highlights() {
       tags: ['Vegetarian', 'Chef Favorite'],
       image: null,
       placeholderText: 'Tandoori Paneer Burger Visual Frame',
-      alt: 'Grilled paneer burger with tandoori spices and dynamic sauces'
+      alt: 'Grilled paneer burger with tandoori spices and dynamic sauces',
+      badge: 'New'
     },
     {
       id: 3,
@@ -33,7 +35,8 @@ export default function Highlights() {
       tags: ['Non-Veg', 'Legendary Curry'],
       image: null,
       placeholderText: 'Butter Chicken Visual Frame',
-      alt: 'Classic rich red butter chicken curry garnish with cream'
+      alt: 'Classic rich red butter chicken curry garnish with cream',
+      badge: 'Best Seller'
     },
     {
       id: 4,
@@ -44,7 +47,8 @@ export default function Highlights() {
       tags: ['Vegetarian', 'Slow Cooked'],
       image: null,
       placeholderText: 'Dal Makhani Visual Frame',
-      alt: 'Creamy black dal served in a traditional copper bowl'
+      alt: 'Creamy black dal served in a traditional copper bowl',
+      badge: 'Signature'
     }
   ];
 
@@ -53,7 +57,7 @@ export default function Highlights() {
       
       {/* Title Header */}
       <div className="mx-auto max-w-3xl text-center mb-16 sm:mb-24">
-        <div className="inline-flex items-center gap-2 rounded-full bg-[#D97706]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#D97706] mb-4">
+        <div className="inline-flex items-center gap-2 rounded-full bg-[#8A5229]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#8A5229] mb-4">
           <Sparkles className="h-3 w-3" />
           <span>House Specialties</span>
         </div>
@@ -90,6 +94,17 @@ export default function Highlights() {
                   </span>
                 </div>
               )}
+
+              {/* Dynamic Badge tag like New, Hot, Popular */}
+              {item.badge && (
+                <div className={`absolute top-4 left-4 rounded-lg px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white shadow-sm ${
+                  item.badge === 'Hot' ? 'bg-red-600' :
+                  item.badge === 'New' ? 'bg-emerald-600' :
+                  item.badge === 'Best Seller' ? 'bg-amber-600' : 'bg-[#8A5229]'
+                }`}>
+                  {item.badge}
+                </div>
+              )}
             </div>
 
             {/* Content Body */}
@@ -97,7 +112,7 @@ export default function Highlights() {
               <div>
                 <div className="flex items-center justify-between gap-4 mb-3">
                   {/* Origin */}
-                  <span className="inline-flex items-center gap-1 text-xs font-medium text-[#D97706]">
+                  <span className="inline-flex items-center gap-1 text-xs font-medium text-[#8A5229]">
                     <MapPin className="h-3.5 w-3.5" />
                     {item.origin}
                   </span>

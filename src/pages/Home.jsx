@@ -23,7 +23,7 @@ export default function Home({ setRoute }) {
       tag: 'Chef Choice',
       image: null,
       placeholderText: 'Tandoori Paneer Burger Frame',
-      accentStyle: 'from-amber-600/10 to-orange-600/10 text-[#D97706]',
+      accentStyle: 'from-amber-600/10 to-orange-600/10 text-[#8A5229]',
       bgColor: 'bg-orange-50/30'
     },
     {
@@ -83,17 +83,17 @@ export default function Home({ setRoute }) {
             {/* Left Content Column */}
             <div className="lg:col-span-6 flex flex-col justify-center text-left animate-fade-in-up">
               
-              <div className="inline-flex items-center gap-2 self-start rounded-full bg-[#D97706]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#D97706] animate-fade-in">
+              <div className="inline-flex items-center gap-2 self-start rounded-full bg-[#8A5229]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#8A5229] animate-fade-in">
                 <Sparkles className="h-3.5 w-3.5" />
                 <span>Elevated Indian Gastronomy</span>
               </div>
               
-              <div className="font-display text-5xl sm:text-6xl text-[#D97706] mt-6 -mb-3 self-start select-none">
+              <div className="font-display text-5xl sm:text-6xl text-[#8A5229] mt-6 -mb-3 self-start select-none">
                 Welcome to
               </div>
               
               <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#2D2D2D] leading-[1.1] font-sans">
-                Authentic Indian flavours, <span className="font-script text-[#D97706] font-normal lowercase tracking-wide block sm:inline">crafted</span> for the modern table.
+                Authentic Indian flavours, <span className="font-script text-[#8A5229] font-normal lowercase tracking-wide block sm:inline">crafted</span> for the modern table.
               </h1>
               
               {/* Increased body text size for readability */}
@@ -109,7 +109,7 @@ export default function Home({ setRoute }) {
                     onClick={() => setActiveDishIdx(idx)}
                     className={`flex-1 min-w-[120px] rounded-xl px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all duration-200 cursor-pointer focus:outline-none ${
                       activeDishIdx === idx
-                        ? 'bg-[#2D2D2D] text-white shadow-sm'
+                        ? 'bg-[#8A5229] text-white shadow-sm'
                         : 'bg-transparent text-[#2D2D2D]/75 hover:bg-[#FAFAF6] hover:text-[#2D2D2D]'
                     }`}
                   >
@@ -122,7 +122,7 @@ export default function Home({ setRoute }) {
               <div className="mt-8 flex flex-wrap gap-4">
                 <button
                   onClick={() => setRoute('menu')}
-                  className="inline-flex items-center gap-2 rounded-full bg-[#2D2D2D] px-7 py-4 text-sm font-semibold text-white shadow-sm hover:bg-[#D97706] transition-all duration-200 cursor-pointer focus:outline-none active:scale-98"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#8A5229] px-7 py-4 text-sm font-semibold text-white shadow-sm hover:bg-[#6D3D1D] transition-all duration-200 cursor-pointer focus:outline-none active:scale-98"
                 >
                   View Full Menu
                   <ArrowRight className="h-4.5 w-4.5" />
@@ -177,7 +177,7 @@ export default function Home({ setRoute }) {
 
                   {/* Dynamic description of selected dish */}
                   <div className="mt-5 text-left p-2 animate-fade-in">
-                    <span className="text-[10px] uppercase tracking-wider font-extrabold text-[#D97706]">
+                    <span className="text-[10px] uppercase tracking-wider font-extrabold text-[#8A5229]">
                       {heroDishes[activeDishIdx].tagline}
                     </span>
                     <h3 className="font-serif text-2xl font-bold text-[#2D2D2D] mt-1 mb-2">
@@ -191,7 +191,7 @@ export default function Home({ setRoute }) {
                         href="https://order.slatexpos.com/namaste-hinton/namaste-hinton"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#D97706] hover:text-[#2D2D2D] transition-colors"
+                        className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#8A5229] hover:text-[#2D2D2D] transition-colors"
                       >
                         Order Online Now
                         <ArrowUpRight className="h-4 w-4" />
@@ -229,7 +229,7 @@ export default function Home({ setRoute }) {
               
               {/* Feature 1 */}
               <div className="flex flex-col items-start text-left p-8 rounded-2xl border border-[#E5E5DE]/50 bg-[#FAFAF6]/50 hover:bg-[#FAFAF6] transition-all duration-200 hover:shadow-sm">
-                <div className="rounded-lg bg-[#D97706]/10 p-3.5 text-[#D97706] mb-6">
+                <div className="rounded-lg bg-[#8A5229]/10 p-3.5 text-[#8A5229] mb-6">
                   <Compass className="h-6 w-6" />
                 </div>
                 <h3 className="font-serif text-xl font-bold text-[#2D2D2D] mb-2">Regional Roots</h3>
@@ -240,7 +240,7 @@ export default function Home({ setRoute }) {
 
               {/* Feature 2 */}
               <div className="flex flex-col items-start text-left p-8 rounded-2xl border border-[#E5E5DE]/50 bg-[#FAFAF6]/50 hover:bg-[#FAFAF6] transition-all duration-200 hover:shadow-sm">
-                <div className="rounded-lg bg-[#D97706]/10 p-3.5 text-[#D97706] mb-6">
+                <div className="rounded-lg bg-[#8A5229]/10 p-3.5 text-[#8A5229] mb-6">
                   <Heart className="h-6 w-6" />
                 </div>
                 <h3 className="font-serif text-xl font-bold text-[#2D2D2D] mb-2">Authentic & Pure</h3>
@@ -251,7 +251,7 @@ export default function Home({ setRoute }) {
 
               {/* Feature 3 */}
               <div className="flex flex-col items-start text-left p-8 rounded-2xl border border-[#E5E5DE]/50 bg-[#FAFAF6]/50 hover:bg-[#FAFAF6] transition-all duration-200 hover:shadow-sm">
-                <div className="rounded-lg bg-[#D97706]/10 p-3.5 text-[#D97706] mb-6">
+                <div className="rounded-lg bg-[#8A5229]/10 p-3.5 text-[#8A5229] mb-6">
                   <Clock className="h-6 w-6" />
                 </div>
                 <h3 className="font-serif text-xl font-bold text-[#2D2D2D] mb-2">Fresh to Order</h3>
@@ -273,7 +273,7 @@ export default function Home({ setRoute }) {
             
             {/* Left Content Side: Interactive navigation */}
             <div className="w-full lg:w-5/12 text-left">
-              <span className="text-xs font-semibold uppercase tracking-wider text-[#D97706]">Interactive Taste Maps</span>
+              <span className="text-xs font-semibold uppercase tracking-wider text-[#8A5229]">Interactive Taste Maps</span>
               <h2 className="mt-4 text-3xl sm:text-4xl font-bold tracking-tight text-[#2D2D2D] font-serif leading-tight">
                 Explore the culinary regions of India.
               </h2>
@@ -294,7 +294,7 @@ export default function Home({ setRoute }) {
                     onClick={() => setActiveRegion(item.id)}
                     className={`flex items-center justify-between w-full rounded-xl p-4 border text-sm font-semibold transition-all duration-200 cursor-pointer focus:outline-none ${
                       activeRegion === item.id
-                        ? 'bg-[#2D2D2D] border-[#2D2D2D] text-white shadow-sm translate-x-1'
+                        ? 'bg-[#8A5229] border-[#8A5229] text-white shadow-sm translate-x-1'
                         : 'bg-white border-[#E5E5DE] text-[#2D2D2D] hover:bg-[#FAFAF6]'
                     }`}
                   >
@@ -316,7 +316,7 @@ export default function Home({ setRoute }) {
                 
                 {/* Card Header info */}
                 <div>
-                  <div className="inline-flex items-center gap-1.5 rounded-lg bg-[#D97706]/10 px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-[#D97706] mb-6">
+                  <div className="inline-flex items-center gap-1.5 rounded-lg bg-[#8A5229]/10 px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-[#8A5229] mb-6">
                     <Compass className="h-3.5 w-3.5" />
                     <span>Regional Specialty</span>
                   </div>
@@ -338,7 +338,7 @@ export default function Home({ setRoute }) {
                       <div key={index} className="flex flex-col">
                         <span className="font-serif font-bold text-[#2D2D2D] text-lg flex items-center justify-between">
                           {dish.name}
-                          <span className="text-sm text-[#D97706] font-sans font-semibold">{dish.price}</span>
+                          <span className="text-sm text-[#8A5229] font-sans font-semibold">{dish.price}</span>
                         </span>
                         <span className="text-xs text-[#2D2D2D]/60 mt-1">{dish.desc}</span>
                       </div>
@@ -396,7 +396,7 @@ export default function Home({ setRoute }) {
             ].map((review, i) => (
               <div key={i} className="flex flex-col justify-between p-6 rounded-2xl border border-[#E5E5DE] bg-[#FAFAF6]/30 text-left">
                 <div>
-                  <div className="flex gap-1 mb-4 text-[#D97706]">
+                  <div className="flex gap-1 mb-4 text-[#8A5229]">
                     {[...Array(review.rating)].map((_, idx) => (
                       <Star key={idx} className="h-4 w-4 fill-current" />
                     ))}

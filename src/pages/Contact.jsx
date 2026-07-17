@@ -27,7 +27,7 @@ export default function Contact() {
       
       {/* Title Header */}
       <div className="mx-auto max-w-3xl text-center mb-16">
-        <span className="text-xs font-semibold uppercase tracking-wider text-[#D97706]">Visit Us</span>
+        <span className="text-xs font-semibold uppercase tracking-wider text-[#8A5229]">Visit Us</span>
         <h1 className="mt-4 text-3xl font-bold tracking-tight text-[#2D2D2D] sm:text-4xl lg:text-5xl font-serif">
           Hours & Location
         </h1>
@@ -44,7 +44,7 @@ export default function Contact() {
           {/* Address Card */}
           <div className="rounded-2xl border border-[#E5E5DE] bg-white p-6 sm:p-8 shadow-sm">
             <div className="flex gap-4">
-              <div className="rounded-lg bg-[#D97706]/10 p-3 text-[#D97706] shrink-0">
+              <div className="rounded-lg bg-[#8A5229]/10 p-3 text-[#8A5229] shrink-0">
                 <MapPin className="h-5.5 w-5.5" />
               </div>
               <div>
@@ -57,7 +57,7 @@ export default function Contact() {
                   href="https://maps.google.com/?q=340+Smith+St+129,+Hinton,+AB+T7V+2A1" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center gap-1 text-xs font-semibold text-[#D97706] hover:text-[#2D2D2D] transition-colors"
+                  className="mt-4 inline-flex items-center gap-1 text-xs font-semibold text-[#8A5229] hover:text-[#2D2D2D] transition-colors"
                 >
                   Get Directions &rarr;
                 </a>
@@ -68,7 +68,7 @@ export default function Contact() {
           {/* Opening Hours Card */}
           <div className="rounded-2xl border border-[#E5E5DE] bg-white p-6 sm:p-8 shadow-sm">
             <div className="flex gap-4">
-              <div className="rounded-lg bg-[#D97706]/10 p-3 text-[#D97706] shrink-0">
+              <div className="rounded-lg bg-[#8A5229]/10 p-3 text-[#8A5229] shrink-0">
                 <Clock className="h-5.5 w-5.5" />
               </div>
               <div className="w-full">
@@ -80,7 +80,7 @@ export default function Contact() {
                   </div>
                   <div className="flex justify-between py-1 border-b border-[#E5E5DE]/40">
                     <span>Friday – Saturday</span>
-                    <span className="font-medium text-[#D97706]">11:00 AM – 11:30 PM</span>
+                    <span className="font-medium text-[#8A5229]">11:00 AM – 11:30 PM</span>
                   </div>
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default function Contact() {
           {/* Contact Details Card */}
           <div className="rounded-2xl border border-[#E5E5DE] bg-white p-6 sm:p-8 shadow-sm">
             <div className="flex gap-4">
-              <div className="rounded-lg bg-[#D97706]/10 p-3 text-[#D97706] shrink-0">
+              <div className="rounded-lg bg-[#8A5229]/10 p-3 text-[#8A5229] shrink-0">
                 <Phone className="h-5.5 w-5.5" />
               </div>
               <div>
@@ -99,10 +99,10 @@ export default function Contact() {
                   Reach our front desk directly for takeout order updates or inquiries.
                 </p>
                 <div className="flex flex-col gap-1.5 text-sm font-semibold text-[#2D2D2D]">
-                  <a href="tel:+17803159611" className="hover:text-[#D97706] transition-colors flex items-center gap-1.5">
+                  <a href="tel:+17803159611" className="hover:text-[#8A5229] transition-colors flex items-center gap-1.5">
                     Phone: (780) 315-9611
                   </a>
-                  <a href="mailto:hello@namastehinton.com" className="hover:text-[#D97706] transition-colors flex items-center gap-1.5 mt-1">
+                  <a href="mailto:hello@namastehinton.com" className="hover:text-[#8A5229] transition-colors flex items-center gap-1.5 mt-1">
                     Email: hello@namastehinton.com
                   </a>
                 </div>
@@ -131,7 +131,7 @@ export default function Contact() {
                 </p>
                 <button
                   onClick={() => setIsSubmitted(false)}
-                  className="mt-6 text-xs font-bold text-[#D97706] hover:text-[#2D2D2D] transition-colors focus:outline-none"
+                  className="mt-6 text-xs font-bold text-[#8A5229] hover:text-[#2D2D2D] transition-colors focus:outline-none"
                 >
                   Send another message
                 </button>
@@ -150,7 +150,7 @@ export default function Contact() {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-[#E5E5DE] bg-[#FAFAF6] px-4 py-3 text-sm text-[#2D2D2D] focus:border-[#D97706] focus:outline-none focus:ring-1 focus:ring-[#D97706] transition-colors"
+                    className="w-full rounded-lg border border-[#E5E5DE] bg-[#FAFAF6] px-4 py-3 text-sm text-[#2D2D2D] focus:border-[#8A5229] focus:outline-none focus:ring-1 focus:ring-[#8A5229] transition-colors"
                     placeholder="E.g., Jaspreet Singh"
                     required
                   />
@@ -167,7 +167,7 @@ export default function Contact() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-[#E5E5DE] bg-[#FAFAF6] px-4 py-3 text-sm text-[#2D2D2D] focus:border-[#D97706] focus:outline-none focus:ring-1 focus:ring-[#D97706] transition-colors"
+                    className="w-full rounded-lg border border-[#E5E5DE] bg-[#FAFAF6] px-4 py-3 text-sm text-[#2D2D2D] focus:border-[#8A5229] focus:outline-none focus:ring-1 focus:ring-[#8A5229] transition-colors"
                     placeholder="jaspreet@example.com"
                     required
                   />
@@ -184,7 +184,7 @@ export default function Contact() {
                     rows="5"
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-[#E5E5DE] bg-[#FAFAF6] px-4 py-3 text-sm text-[#2D2D2D] focus:border-[#D97706] focus:outline-none focus:ring-1 focus:ring-[#D97706] transition-colors resize-none"
+                    className="w-full rounded-lg border border-[#E5E5DE] bg-[#FAFAF6] px-4 py-3 text-sm text-[#2D2D2D] focus:border-[#8A5229] focus:outline-none focus:ring-1 focus:ring-[#8A5229] transition-colors resize-none"
                     placeholder="Tell us about your event, catering, or reservation inquiry..."
                     required
                   ></textarea>
@@ -193,7 +193,7 @@ export default function Contact() {
                 {/* Submit button */}
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#2D2D2D] py-3.5 text-sm font-semibold uppercase tracking-wider text-white shadow-sm hover:bg-[#D97706] transition-colors duration-200 cursor-pointer focus:outline-none"
+                  className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#8A5229] py-3.5 text-sm font-semibold uppercase tracking-wider text-white shadow-sm hover:bg-[#6D3D1D] transition-colors duration-200 cursor-pointer focus:outline-none"
                 >
                   Send Message
                   <Send className="h-4 w-4" />

@@ -7,7 +7,7 @@
   --color-brand-bg: #FAFAF6;
   --color-brand-card: #FFFFFF;
   --color-brand-text: #2D2D2D;
-  --color-brand-accent: #D97706;
+  --color-brand-accent: #8A5229;
 
   --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
   --animate-fade-in: fade-in 0.6s ease-out both;
@@ -72,5 +72,5 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #D97706;
+  background: #8A5229;
 }
