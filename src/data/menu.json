@@ -1,0 +1,412 @@
+[
+  {
+    "Item": "Vada pav",
+    "Category": "Appetizers",
+    "Menu": "Namste Hinton",
+    "Price": "$14.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Juice",
+    "Category": "Beverages",
+    "Menu": "Namste Hinton",
+    "Price": "$4.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Mango Milkshake",
+    "Category": "Beverages",
+    "Menu": "Namste Hinton",
+    "Price": "$6.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Mango Lassi",
+    "Category": "Beverages",
+    "Menu": "Namste Hinton",
+    "Price": "$6.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Pop Can",
+    "Category": "Beverages",
+    "Menu": "Namste Hinton",
+    "Price": "$1.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Bottled Water",
+    "Category": "Beverages",
+    "Menu": "Namste Hinton",
+    "Price": "$2.49",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Chutney",
+    "Category": "SIDES & CONDIMENTS",
+    "Menu": "Namste Hinton",
+    "Price": "$0.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Fresh Salad",
+    "Category": "SIDES & CONDIMENTS",
+    "Menu": "Namste Hinton",
+    "Price": "$3.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Mixed Pickle",
+    "Category": "SIDES & CONDIMENTS",
+    "Menu": "Namste Hinton",
+    "Price": "$1.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Raita",
+    "Category": "SIDES & CONDIMENTS",
+    "Menu": "Namste Hinton",
+    "Price": "$5.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Tandoori Paneer Burger",
+    "Category": "BURGERS",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Tandoori Chicken Burger",
+    "Category": "BURGERS",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Pav for Bhaji",
+    "Category": "BREADS",
+    "Menu": "Namste Hinton",
+    "Price": "$2.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Garlic Naan",
+    "Category": "BREADS",
+    "Menu": "Namste Hinton",
+    "Price": "$4.49",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Butter Naan",
+    "Category": "BREADS",
+    "Menu": "Namste Hinton",
+    "Price": "$2.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Vegetable Biryani",
+    "Category": "BIRYANI & RICE",
+    "Menu": "Namste Hinton",
+    "Price": "$18.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Goat Biryani",
+    "Category": "BIRYANI & RICE",
+    "Menu": "Namste Hinton",
+    "Price": "$21.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Chicken Biryani",
+    "Category": "BIRYANI & RICE",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Jeera Rice",
+    "Category": "BIRYANI & RICE",
+    "Menu": "Namste Hinton",
+    "Price": "$5.49",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Plain Basmati Rice",
+    "Category": "BIRYANI & RICE",
+    "Menu": "Namste Hinton",
+    "Price": "$4.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Yellow Dal",
+    "Category": "DAL SELECTIONS",
+    "Menu": "Namste Hinton",
+    "Price": "$17.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Dal Makhani",
+    "Category": "DAL SELECTIONS",
+    "Menu": "Namste Hinton",
+    "Price": "$17.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Dal Tadka",
+    "Category": "DAL SELECTIONS",
+    "Menu": "Namste Hinton",
+    "Price": "$17.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Bombay Bhaji",
+    "Category": "VEGETARIAN",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Chole Masala",
+    "Category": "VEGETARIAN",
+    "Menu": "Namste Hinton",
+    "Price": "$17.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Malai Kofta",
+    "Category": "VEGETARIAN",
+    "Menu": "Namste Hinton",
+    "Price": "$17.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Palak Paneer",
+    "Category": "VEGETARIAN",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Karahi Paneer",
+    "Category": "VEGETARIAN",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Paneer Makhni",
+    "Category": "VEGETARIAN",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Fish Curry",
+    "Category": "GOAT & FISH",
+    "Menu": "Namste Hinton",
+    "Price": "$21.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Goat Masala",
+    "Category": "GOAT & FISH",
+    "Menu": "Namste Hinton",
+    "Price": "$21.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Goat Curry",
+    "Category": "GOAT & FISH",
+    "Menu": "Namste Hinton",
+    "Price": "$21.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Chicken Curry",
+    "Category": "CHICKEN SPECIALTIES",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Karahi Chicken",
+    "Category": "CHICKEN SPECIALTIES",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Chicken Tikka Masala",
+    "Category": "CHICKEN SPECIALTIES",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Butter Chicken",
+    "Category": "CHICKEN SPECIALTIES",
+    "Menu": "Namste Hinton",
+    "Price": "$19.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Malai Soya Chaap",
+    "Category": "Appetizers",
+    "Menu": "Namste Hinton",
+    "Price": "$18.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Tandoori Soya Chaap",
+    "Category": "Appetizers",
+    "Menu": "Namste Hinton",
+    "Price": "$18.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Vegetable Samosa (3 pcs)",
+    "Category": "Appetizers",
+    "Menu": "Namste Hinton",
+    "Price": "$5.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Fish Pakora",
+    "Category": "Appetizers",
+    "Menu": "Namste Hinton",
+    "Price": "$14.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  },
+  {
+    "Item": "Chicken Pakora",
+    "Category": "Appetizers",
+    "Menu": "Namste Hinton",
+    "Price": "$12.99",
+    "Availability": "Dine In, TA, DL",
+    "Status": "Active",
+    "Extra Ingredient": "No",
+    "None": null
+  }
+]
