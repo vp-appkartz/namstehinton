@@ -7,7 +7,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "A classic Mumbai street food. Spiced potato dumpling served in a soft bun."
   },
   {
     "Item": "Juice",
@@ -17,7 +18,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Refreshing fresh fruit juice, perfect for any time of the day."
   },
   {
     "Item": "Mango Milkshake",
@@ -27,7 +29,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Creamy, rich, and sweet milkshake made with ripe mangoes."
   },
   {
     "Item": "Mango Lassi",
@@ -37,7 +40,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Traditional yogurt-based drink infused with sweet mango pulp."
   },
   {
     "Item": "Pop Can",
@@ -47,7 +51,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Chilled assorted canned sodas to complement your meal."
   },
   {
     "Item": "Bottled Water",
@@ -57,7 +62,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Refreshing, chilled bottled spring water."
   },
   {
     "Item": "Chutney",
@@ -67,7 +73,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Tangy and spicy dipping sauce made with fresh herbs."
   },
   {
     "Item": "Fresh Salad",
@@ -77,7 +84,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Crisp garden salad with fresh seasonal vegetables."
   },
   {
     "Item": "Mixed Pickle",
@@ -87,7 +95,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Spicy and tangy traditional Indian mixed vegetable pickle."
   },
   {
     "Item": "Raita",
@@ -97,7 +106,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Cooling yogurt mixed with cucumber and mild spices."
   },
   {
     "Item": "Tandoori Paneer Burger",
@@ -107,7 +117,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Grilled paneer patty infused with tandoori spices, served in a toasted bun."
   },
   {
     "Item": "Tandoori Chicken Burger",
@@ -117,7 +128,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Juicy tandoori chicken breast in a fresh bun with spicy mayo."
   },
   {
     "Item": "Pav for Bhaji",
@@ -127,7 +139,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Soft buttery bread rolls, perfect for soaking up curries."
   },
   {
     "Item": "Garlic Naan",
@@ -137,7 +150,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Traditional clay oven baked flatbread infused with fresh garlic."
   },
   {
     "Item": "Butter Naan",
@@ -147,7 +161,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Soft and fluffy traditional flatbread brushed with rich butter."
   },
   {
     "Item": "Vegetable Biryani",
@@ -157,7 +172,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Aromatic basmati rice cooked with mixed vegetables and fragrant spices."
   },
   {
     "Item": "Goat Biryani",
@@ -167,7 +183,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Tender goat pieces cooked with basmati rice and rich traditional spices."
   },
   {
     "Item": "Chicken Biryani",
@@ -177,7 +194,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Fragrant basmati rice layered with spiced chicken and aromatics."
   },
   {
     "Item": "Jeera Rice",
@@ -187,7 +205,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Fluffy basmati rice tempered with cumin seeds."
   },
   {
     "Item": "Plain Basmati Rice",
@@ -197,7 +216,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Steamed aromatic long-grain basmati rice."
   },
   {
     "Item": "Yellow Dal",
@@ -207,7 +227,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Comforting yellow lentils tempered with cumin, garlic, and chilies."
   },
   {
     "Item": "Dal Makhani",
@@ -217,7 +238,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Slow-cooked black lentils in a rich, creamy, buttery tomato sauce."
   },
   {
     "Item": "Dal Tadka",
@@ -227,7 +249,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Yellow lentils finished with a tempering of ghee and spices."
   },
   {
     "Item": "Bombay Bhaji",
@@ -237,7 +260,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Spiced vegetable mash served with buttery bread rolls."
   },
   {
     "Item": "Chole Masala",
@@ -247,7 +271,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Hearty chickpeas simmered in a spicy and tangy tomato-onion gravy."
   },
   {
     "Item": "Malai Kofta",
@@ -257,7 +282,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Soft cheese and vegetable dumplings in a rich, creamy cashew gravy."
   },
   {
     "Item": "Palak Paneer",
@@ -267,7 +293,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Fresh spinach purée cooked with soft paneer cubes and mild spices."
   },
   {
     "Item": "Karahi Paneer",
@@ -277,7 +304,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Paneer cooked with bell peppers and onions in a robust spiced gravy."
   },
   {
     "Item": "Paneer Makhni",
@@ -287,7 +315,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Paneer cubes simmered in a luscious, creamy, buttery tomato sauce."
   },
   {
     "Item": "Fish Curry",
@@ -297,7 +326,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Tender fish pieces cooked in a tangy and aromatic spiced gravy."
   },
   {
     "Item": "Goat Masala",
@@ -307,7 +337,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Succulent goat meat slow-cooked in a rich, robust onion-tomato masala."
   },
   {
     "Item": "Goat Curry",
@@ -317,7 +348,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Traditional tender goat curry simmered with aromatic whole spices."
   },
   {
     "Item": "Chicken Curry",
@@ -327,7 +359,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Classic homestyle chicken curry with a rich blend of spices."
   },
   {
     "Item": "Karahi Chicken",
@@ -337,7 +370,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Spicy chicken stir-fried with bell peppers, tomatoes, and ground spices."
   },
   {
     "Item": "Chicken Tikka Masala",
@@ -347,7 +381,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Roasted chicken chunks in a creamy, spiced tomato sauce."
   },
   {
     "Item": "Butter Chicken",
@@ -357,7 +392,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Our signature tender chicken cooked in a velvety, rich buttery tomato gravy."
   },
   {
     "Item": "Malai Soya Chaap",
@@ -367,7 +403,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Tender soya chaap marinated in cream and spices, roasted in the tandoor."
   },
   {
     "Item": "Tandoori Soya Chaap",
@@ -377,7 +414,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Protein-rich soya chaap marinated in bold tandoori spices and grilled."
   },
   {
     "Item": "Vegetable Samosa (3 pcs)",
@@ -387,7 +425,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Crispy pastry triangles stuffed with spiced potatoes and peas."
   },
   {
     "Item": "Fish Pakora",
@@ -397,7 +436,8 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Crispy, spiced chickpea batter-fried tender fish pieces."
   },
   {
     "Item": "Chicken Pakora",
@@ -407,6 +447,7 @@
     "Availability": "Dine In, TA, DL",
     "Status": "Active",
     "Extra Ingredient": "No",
-    "None": null
+    "None": null,
+    "Description": "Juicy bite-sized chicken pieces fried in a spiced gram flour batter."
   }
 ]
